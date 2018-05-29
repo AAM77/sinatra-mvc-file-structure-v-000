@@ -9,4 +9,8 @@ class Dog
     @@all << self
   end #initialize
 
+  def self.all
+    @@all
+  end #self.all
+
 end #Dog class
